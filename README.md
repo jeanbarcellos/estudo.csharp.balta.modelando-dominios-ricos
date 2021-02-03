@@ -146,3 +146,7 @@ mkdir Entities
 **Crias as Entidades**
 
 ...
+
+## Corrupção no Código
+
+..
