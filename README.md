@@ -131,7 +131,7 @@ dotnet build
 dotnet add PaymentContext.Domain reference PaymentContext.Shared
 
 dotnet add PaymentContext.Tests reference PaymentContext.Shared
-dotnet add PaymentContext.Domain reference PaymentContext.Shared
+dotnet add PaymentContext.Tests reference PaymentContext.Domain
 ```
 
 ## Definindo as Entidades
