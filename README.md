@@ -150,3 +150,11 @@ mkdir Entities
 ## Corrupção no Código
 
 ..
+
+## SOLID e Clean Code
+
+Recomendação de Livros:
+
+- Clean Code - Robert C. Martin
+- Clean Coder - Robert C. Martin
+- Clean Architecture - Robert C. Martin
