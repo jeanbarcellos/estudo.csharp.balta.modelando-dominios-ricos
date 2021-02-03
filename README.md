@@ -6,7 +6,7 @@ Neste curso vamos aprender a criar um contexto de pagamento utilizando recursos 
 
 Instrutor:
 
-- [André Baltiéri](balta.io)
+- [André Baltiéri](https://balta.io)
 
 Referências:
 
@@ -168,3 +168,24 @@ Quando der, criar tipos complexos.
 # Value Objects
 
 Basicamente, tipos de compôem uma entidade.
+
+# Implementando Validações
+
+O único objetivo de ter separado os tipos primitivos me ValueObjects na aula anteior, é para poder impelemntar as validações neles.
+
+**Instalar o pacote `flunt` nos diretórios `PaymentContext.Domain`, `PaymentContext.Shared` e `PaymentContext.Tests`**
+
+```
+cd PaymentContext.Shared
+dotnet add package flunt
+
+cd ..
+
+cd PaymentContext.Domain
+dotnet add package flunt
+
+cd ..
+
+cd PaymentContext.Tests
+dotnet add package flunt
+```

@@ -20,11 +20,14 @@ namespace PaymentContext.Domain.Entities
             Document = document;
             Email = email;
             _subscriptions = new List<Subscription>();
+
+            AddNotifications(name, document, email);
         }
 
         public void AddSubscription(Subscription subscription)
         {
             // Se já tiver uma assinatura ativa, cancela
+
 
             // Cancela todas as outras assianaturas, e colocar esta como principal
             foreach (var sub in Subscriptions)
