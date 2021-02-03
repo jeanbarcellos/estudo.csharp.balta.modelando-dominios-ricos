@@ -61,3 +61,7 @@ Em resumo: uma linguagem que seja comum entre os envolvidos
 
 ..
 
+## Sub Domínios
+
+..
+
