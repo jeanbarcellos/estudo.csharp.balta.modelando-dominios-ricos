@@ -56,3 +56,8 @@ Definição da palabra _ubíquo_:
 - Que está difundido em todo o lado = GERAL, UNIVERSAL
 
 Em resumo: uma linguagem que seja comum entre os envolvidos
+
+## Domínios Ricos vs Domínios Anêmicos
+
+..
+
