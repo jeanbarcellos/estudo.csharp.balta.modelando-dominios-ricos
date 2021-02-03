@@ -76,3 +76,60 @@ Ex:
 
 Construir algo pequeno e funcional, de fácil manutenção e fácil entendimento
 
+## Organizando a Solução
+
+**Estrutura**
+
+- Domain = domínio ríco
+- Shared = itens para compartilhar entre domínios
+- Test = testes da aplicação
+
+**Criar o diretório do projeto**
+
+```
+mkdir PaymentContext
+cd PaymentContext
+```
+
+**Criar a Solution**
+
+```
+dotnew new sln -n PaymentContext
+```
+
+**Criar os Projetos**
+
+```
+dotnet new classlib -n PaymentContext.Domain
+dotnet new classlib -n PaymentContext.Shared
+dotnet new mstest -n PaymentContext.Tests
+```
+
+**Adicionar os projos a Solution**
+
+```
+dotnet sln add PaymentContext.Domain/PaymentContext.Domain.csproj
+dotnet sln add PaymentContext.Shared/PaymentContext.Shared.csproj
+dotnet sln add PaymentContext.Tests/PaymentContext.Tests.csproj
+```
+
+**Restaurar todos os pacotes**
+
+```
+dotnet restore
+```
+
+**Compilar os projetos como um todo**
+
+```
+dotnet build
+```
+
+**Referências**
+
+```
+dotnet add PaymentContext.Domain reference PaymentContext.Shared
+
+dotnet add PaymentContext.Tests reference PaymentContext.Shared
+dotnet add PaymentContext.Domain reference PaymentContext.Shared
+```
