@@ -65,3 +65,14 @@ Em resumo: uma linguagem que seja comum entre os envolvidos
 
 ..
 
+## Separação em Contextos Delimitados (Bounded context)
+
+Ex:
+
+- ERP -> Sistema
+- FI -> Módulos
+- Pagamentos - Subdomínio
+- Realização de pagamentos - Contexto limitados
+
+Construir algo pequeno e funcional, de fácil manutenção e fácil entendimento
+
