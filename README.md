@@ -133,3 +133,16 @@ dotnet add PaymentContext.Domain reference PaymentContext.Shared
 dotnet add PaymentContext.Tests reference PaymentContext.Shared
 dotnet add PaymentContext.Domain reference PaymentContext.Shared
 ```
+
+## Definindo as Entidades
+
+**Ciar o diretório `Entidades`**
+
+```
+cd PaymentContext.Domain
+mkdir Entities
+```
+
+**Crias as Entidades**
+
+...
