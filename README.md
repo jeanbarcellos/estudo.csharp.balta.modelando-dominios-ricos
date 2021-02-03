@@ -164,3 +164,7 @@ Recomendação de Livros:
 É quando o código depende muito de primitivos
 
 Quando der, criar tipos complexos.
+
+# Value Objects
+
+Basicamente, tipos de compôem uma entidade.
