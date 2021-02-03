@@ -158,3 +158,9 @@ Recomendação de Livros:
 - Clean Code - Robert C. Martin
 - Clean Coder - Robert C. Martin
 - Clean Architecture - Robert C. Martin
+
+# Primitive Obsession
+
+É quando o código depende muito de primitivos
+
+Quando der, criar tipos complexos.
