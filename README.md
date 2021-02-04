@@ -219,3 +219,7 @@ Flhar antes mesmo de você chegar ao seu Domínio e Regras de Negócio
 ### Repository Pattern
 
 ...
+
+### Handlers
+
+...
