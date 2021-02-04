@@ -231,3 +231,7 @@ Criação de Mocks, pra testar o Repository, em `Tests`
 ## Queries
 
 ...
+
+### Testando suas Queries
+
+...
