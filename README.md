@@ -159,17 +159,17 @@ Recomendação de Livros:
 - Clean Coder - Robert C. Martin
 - Clean Architecture - Robert C. Martin
 
-# Primitive Obsession
+## Primitive Obsession
 
 É quando o código depende muito de primitivos
 
 Quando der, criar tipos complexos.
 
-# Value Objects
+## Value Objects
 
 Basicamente, tipos de compôem uma entidade.
 
-# Implementando Validações
+## Implementando Validações
 
 O único objetivo de ter separado os tipos primitivos me ValueObjects na aula anteior, é para poder impelemntar as validações neles.
 
@@ -198,4 +198,6 @@ dotnet add package flunt
 
 SPOF - single point of failure (Ponto único de falha)
 
-Code Contracts
+## Testando as Entidades e VOs
+
+...

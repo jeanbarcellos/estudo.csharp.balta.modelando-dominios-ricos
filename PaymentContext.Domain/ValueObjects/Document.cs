@@ -21,7 +21,6 @@ namespace PaymentContext.Domain.ValueObjects
             );
         }
 
-
         private bool Validate()
         {
             if (Type == EDocumentType.CNPJ && Number.Length == 14)
