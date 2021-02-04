@@ -201,3 +201,7 @@ SPOF - single point of failure (Ponto único de falha)
 ## Testando as Entidades e VOs
 
 ...
+
+## Commands
+
+**CQRS**, Command and Query Responsibility Segregation (Segregação de Responsabilidade de Consulta e Comand)
