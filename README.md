@@ -205,3 +205,9 @@ SPOF - single point of failure (Ponto único de falha)
 ## Commands
 
 **CQRS**, Command and Query Responsibility Segregation (Segregação de Responsabilidade de Consulta e Comand)
+
+## Fail Fast Validations
+
+Falha nas validações rápidas
+
+Flhar antes mesmo de você chegar ao seu Domínio e Regras de Negócio
