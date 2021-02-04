@@ -215,3 +215,7 @@ Flhar antes mesmo de você chegar ao seu Domínio e Regras de Negócio
 ### Testando os Commands
 
 ...
+
+### Repository Pattern
+
+...
