@@ -76,6 +76,12 @@ namespace PaymentContext.Domain.Handlers
             // Agrupar as Validações
             AddNotifications(name, document, email, address, student, subscription, payment);
 
+            // Checar as notificações
+            if (Invalid)
+            {
+                return new CommandResult(false, "Não foi possível realizar sua assinatura");
+            }
+
             // Salvar as Informações
             _repository.CreateSubscription(student);
 
@@ -93,11 +99,15 @@ namespace PaymentContext.Domain.Handlers
 
             // Verificar se Documento já está cadastrado
             if (_repository.DocumentExists(command.Document))
+            {
                 AddNotification("Document", "Este CPF já está em uso");
+            }
 
             // Verificar se E-mail já está cadastrado
             if (_repository.EmailExists(command.Email))
+            {
                 AddNotification("Email", "Este E-mail já está em uso");
+            }
 
             // Gerar os VOs
             var name = new Name(command.FirstName, command.LastName);
@@ -126,8 +136,15 @@ namespace PaymentContext.Domain.Handlers
             subscription.AddPayment(payment);
             student.AddSubscription(subscription);
 
+
             // Agrupar as Validações
             AddNotifications(name, document, email, address, student, subscription, payment);
+
+            // Checar as notificações
+            if (Invalid)
+            {
+                return new CommandResult(false, "Não foi possível realizar sua assinatura");
+            }
 
             // Salvar as Informações
             _repository.CreateSubscription(student);
