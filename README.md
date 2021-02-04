@@ -173,6 +173,8 @@ Basicamente, tipos de compôem uma entidade.
 
 O único objetivo de ter separado os tipos primitivos me ValueObjects na aula anteior, é para poder impelemntar as validações neles.
 
+[Flunt](https://github.com/andrebaltieri/flunt)
+
 **Instalar o pacote `flunt` nos diretórios `PaymentContext.Domain`, `PaymentContext.Shared` e `PaymentContext.Tests`**
 
 ```
@@ -189,3 +191,11 @@ cd ..
 cd PaymentContext.Tests
 dotnet add package flunt
 ```
+
+## Design By Contracts
+
+**Design by Contract** (DbC ou Programação por contrato) é um abordagem de desenvolvimento de software que prescreve que os desenvolvedores devem definir métodos formais, especificações de interface precisas e verificáveis dos componentes de desenvolvimento de software que acarreta na definição de Tipo Abstrato de Dados com pre-condições, pos-condições e constantes.Estas especificações são definidas como um "contrato", de acordo com os próprios conceitos de condições e obrigações dos contratos de negócio.
+
+SPOF - single point of failure (Ponto único de falha)
+
+Code Contracts
