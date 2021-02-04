@@ -223,3 +223,8 @@ Flhar antes mesmo de você chegar ao seu Domínio e Regras de Negócio
 ### Handlers
 
 ...
+
+## Testando os Handlers
+
+Criação de Mocks, pra testar o Repository, em `Tests`
+
