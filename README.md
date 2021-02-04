@@ -211,3 +211,7 @@ SPOF - single point of failure (Ponto único de falha)
 Falha nas validações rápidas
 
 Flhar antes mesmo de você chegar ao seu Domínio e Regras de Negócio
+
+### Testando os Commands
+
+...
